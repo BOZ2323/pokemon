@@ -12,7 +12,7 @@ export default class Dashboard extends Component {
                     </div>
                 </div>
 
-                <h1 > Dashboard < /h1>
+                
 
             <
             /div>
