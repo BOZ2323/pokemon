@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/layout/Navbar';
+import Dashboard from './components/layout/Dashboard';
 import PokemonList from './components/PokemonList';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -35,7 +36,10 @@ class App extends Component {
         return ( <
             div className = "App" >
                 <Navbar/>
-                <PokemonList/>
+                <div className="container">
+                    <Dashboard/>
+                </div>
+
 
 
             </div>
