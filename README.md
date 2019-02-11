@@ -1,3 +1,13 @@
+#Pokemon Coding Test
+I used React.js for this project and installed axios to make the request to the Pokeapi. Postman was handy to check if my request would have the correct result. And I installed Bootstrap for some basic styling.
+Since I shouldn't work more than 2 hours on the test I didn't complete it, but stopped after I generated the list of Pokemon-species. By default the result includes the first 20 species but I changed that to 60.
+The next thing to do would have been another axios request for the evolution-chain. I would have created a button behind each Pokemon-species name and would have added an onClickHandler, that fires whenever a button is clicked and then makes the exact axios request to for the evolution-chain of that species that was clicked.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
