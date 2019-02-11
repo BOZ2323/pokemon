@@ -18,7 +18,7 @@ export default class PokemonList extends Component {
 
         return (
             <
-            div>
+            div className="wrapper">
             {this.state.pokemon ? (
                 <div className="model">
 
