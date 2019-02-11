@@ -20,7 +20,8 @@ export default class PokemonList extends Component {
             <
             div>
             {this.state.pokemon ? (
-                <div >
+                <div className="model">
+
                 {this.state.pokemon.map(
                     pokemon => <Pokemon
                     key = {pokemon.name}

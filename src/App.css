@@ -1,7 +1,10 @@
 .App {
-    padding-top: 4rem;
+    padding-top: 3rem;
     min-height: 100vh;
-  text-align: center;
+    text-align: center;
+}
+.model {
+    margin-top:20px;
 }
 
 
