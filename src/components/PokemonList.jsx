@@ -27,7 +27,9 @@ export default class PokemonList extends Component {
                     key = {pokemon.name}
                     name = {pokemon.name}
                     url = {pokemon.url}
+
                     />
+                    
                 )}
                 </div>
 

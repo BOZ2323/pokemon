@@ -1,13 +1,14 @@
-body{
+body {
     background-color: #ffd823 !important;
     line-height: 1.2 !important;
 }
-h1{
+
+h1 {
     padding: 0.5rem .5rem 0 .5rem;
 }
-h1:hover{
-    color: red;
 
+h1:hover {
+    color: red;
 }
 
 .App {
@@ -15,26 +16,48 @@ h1:hover{
     min-height: 100vh;
     text-align: center;
 }
-.title{
+
+.title {
     font-size: 5rem;
     color: red;
     font-weight: bold;
 }
 
-p{
+p {
     font-size: 1.28rem;
-     color: black;
+    color: black;
 }
-.row{
+
+.row {
     justify-content: center;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     align-items: center;
 }
+
 .model {
     text-transform: capitalize;
 }
+
 .card {
     margin-top: 1.5rem;
+    width: 250px;
+}
+
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-space {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.btn a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
 }
