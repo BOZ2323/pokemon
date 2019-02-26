@@ -43,11 +43,14 @@ export default class PokemonInfo extends Component {
     }
   render() {
     return (
-      <div className="wrapper">
-        <div className="model">{this.state.evoChain.map(evo => {
-          return <h1 className= "card card.body mx-auto evoChainCard" key={evo.speciesName}>{evo.speciesName}</h1>
-        })}</div>
-        
+      <div>
+        <p className="subtitle"><span className="capitalize">{this.state.name}</span> can evolve to:</p>
+        <div className="wrapper">
+          <div className="model">{this.state.evoChain.map(evo => {
+            return <h1 className= "card card.body mx-auto evoChainCard" key={evo.speciesName}>{evo.speciesName}</h1>
+          })}</div>
+          
+        </div>
       </div>
     )
   }

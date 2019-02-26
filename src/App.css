@@ -30,6 +30,10 @@ h1:hover {
     color: black;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 .row {
     justify-content: center;
 }
