@@ -1,3 +1,15 @@
+# Pokemon Coding Test
+
+I used React.js for this project and installed axios to make the request to the Pokeapi. Postman was handy to check if my request would have the correct result. In addition I installed Bootstrap for some basic styling.
+Since I shouldn't work more than approx. 2 hours on the test I didn't complete it, but stopped after I generated the list of Pokemon-species. By default the result includes the first 20 species but I changed that to 60.
+The next thing to do would be another axios request to fetch the evolution-chain-data that is fired when the onChangeHandler detects a change in the state, meaning whenever a Pokemon-species-button is clicked and the onClick event is fired. 
+e.target.value detects which button was clicked and then makes the exact axios request to the Pokeapi for the evolution-chain of that species that was clicked.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
