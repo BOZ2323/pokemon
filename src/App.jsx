@@ -13,7 +13,7 @@ class App extends Component {
                 <div className = "App" >
                     <div className="header">
                         <div className="title">Pokemon</div>
-                        <p>Here is a list of 60 pokemon-species:</p>
+                       
                     </div>
                     <Switch>
                         <Route exact path ="/" component={Dashboard}/>

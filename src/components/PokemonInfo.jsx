@@ -43,9 +43,9 @@ export default class PokemonInfo extends Component {
     }
   render() {
     return (
-      <div className="cardWrapper">
-        <div>{this.state.evoChain.map(evo => {
-          return <h1 className= "card card.body mx-auto" key={evo.speciesName}>{evo.speciesName}</h1>
+      <div className="wrapper">
+        <div className="model">{this.state.evoChain.map(evo => {
+          return <h1 className= "card card.body mx-auto evoChainCard" key={evo.speciesName}>{evo.speciesName}</h1>
         })}</div>
         
       </div>

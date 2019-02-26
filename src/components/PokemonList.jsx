@@ -17,23 +17,25 @@ export default class PokemonList extends Component {
     render() {
 
         return (
-            <
-            div className="wrapper">
-            {this.state.pokemon ? (
-                <div className="model">
+            <div>
+                 <p className="subtitle">Here is a list of 60 pokemon-species:</p>
+                <div className="wrapper">
+                {this.state.pokemon ? (
+                    <div className="model">
 
-                {this.state.pokemon.map(
-                    pokemon => <Pokemon
-                    key = {pokemon.name}
-                    name = {pokemon.name}
-                    url = {pokemon.url}
+                    {this.state.pokemon.map(
+                        pokemon => <Pokemon
+                        key = {pokemon.name}
+                        name = {pokemon.name}
+                        url = {pokemon.url}
 
-                    />
-                    
-                )}
+                        />
+                        
+                    )}
+                    </div>
+
+                ): (<h1>"waiting for Pokemon"</h1>)}
                 </div>
-
-            ): (<h1>"waiting for Pokemon"</h1>)}
             </div>
 
         )

@@ -21,10 +21,12 @@ h1:hover {
     font-size: 5rem;
     color: red;
     font-weight: bold;
+    letter-spacing: .2rem;
 }
 
-p {
+.subtitle {
     font-size: 1.28rem;
+    font-weight: 700;
     color: black;
 }
 
@@ -35,6 +37,7 @@ p {
 .wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .model {
@@ -43,17 +46,16 @@ p {
 
 .card {
     margin-top: 1.5rem;
-    width: 250px;
+    width: 15.6rem;
 }
 
-.cardWrapper {
-    display: flex;
-    justify-content: center;
+.evoChainCard {
+    padding-bottom: .6rem;
 }
 
 .btn-space {
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 1.50rem;
+    margin-left: 1.25rem;
 }
 
 .btn a {

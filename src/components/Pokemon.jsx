@@ -29,7 +29,8 @@ export default class Pokemon extends Component {
         
 
         return ( 
-            <div className="cardWrapper">
+            <div className="wrapper">
+                
                 <div className="card card.body mx-auto">
                     <h1>{this.state.name}</h1>
                 </div>
