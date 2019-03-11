@@ -1,6 +1,6 @@
-# Pokemon Coding Test
+# Pokemon Api
 
-I used React.js for this project and installed axios to make the request to the Pokeapi. Postman was handy to check if my request would have the correct result. In addition I installed Bootstrap for some basic styling.
+I used React.js for this project and installed axios to make the requests to the Pokeapi. Postman was handy to check if my request would have the correct result. In addition I installed Bootstrap for some basic styling.
 
 
 
